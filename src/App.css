@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=East+Sea+Dokdo&family=Nanum+Brush+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+@import url("https://fonts.googleapis.com/css2?&family=Yeon+Sung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+/* 전체 컨테이너 스타일 */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: white; /* 나머지 부분을 흰색으로 설정 */
+}
+
+/* 사이드바 스타일 */
+.sidebar {
+  width: 270px;
+  max-height: 100vh; /* 최대 높이 설정 */
+  overflow-y: auto; /* 넘치면 스크롤 추가 */
+  padding: 20px;
+  background-color: #52e4dc; /* 옅은 보라색 배경 설정 */
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* 이미지 스타일 수정 */
+.sidebar img {
+  max-width: 100px; /* 이미지 최대 너비 설정 */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* 버튼과 이미지를 담는 컨테이너 스타일 */
+.button-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  margin-bottom: 10px;
+}
+
+/* New Chat 버튼 스타일 */
+.new-chat-button {
+  padding: 15px 30px; /* 버튼 패딩 수정 */
+  margin-right: 10px; /* 이미지와 버튼 사이 여백 설정 */
+  background-color: #98fb98; /* 배경색 설정 (사이드바와 동일) */
+  color: white; /* 텍스트 색상 설정 */
+  border: 2px solid white; /* 흰색 테두리 추가 */
+  border-radius: 20px; /* 더 라운드한 모서리 설정 */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 20px; /* 글자 크기 늘리기 */
+  font-weight: bold; /* 텍스트 굵게 설정 */
+  width: 100%; /* 넓이를 100%로 설정하여 사이드바 전체 너비 차지 */
+  box-sizing: border-box; /* 패딩과 테두리를 포함한 크기 설정 */
+  text-align: center; /* 텍스트를 가운데 정렬 */
+  display: flex; /* 내부 요소들을 가로로 정렬하기 위해 flex 사용 */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  line-height: 1; /* 텍스트 줄 높이를 1로 설정하여 버튼에 맞게 배치 */
+  height: 5%;
+}
+
+.new-chat-button:hover {
+  background-color: #5BFFB0; /* 호버 시 배경색 변경 */
+}
+
+/* 즐겨찾기 이미지 버튼 스타일 */
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 25%;
+  margin: 7px;
+  margin-top: 10px;
+}
+
+.folder-cursor {
+  color: #98fb98; /* 초기 색상 설정 */
+  font-size: 50px; /* 초기 크기 설정 */
+  cursor: pointer; /* 커서 스타일 설정 */
+  border: 1px solid transparent; /* 테두리 설정 */
+  transition: color 0.3s, border 0.3s; /* 트랜지션 효과 추가 (선택사항) */
+}
+
+/* hover 시 스타일 변경 */
+.folder-cursor:hover {
+  color: #5BFFB0;
+}
+
+.favorite-button img {
+  width: 50px; /* 이미지 크기 조정 */
+  height: auto;
+}
+
+/* 즐겨찾기 호버 시 배경색 변경 */
+button:hover {
+  background-color: #5BFFB0;
+}
+
+#itemBox {
+  height: 90%;
+  overflow: auto; /* 필요한 경우 스크롤 허용 */
+  flex-grow: 1; /* 남은 공간을 차지하도록 설정 */
+  scrollbar-width: thin; /* Firefox */
+}
+
+#itemBox::-webkit-scrollbar {
+  width: 0.5rem; /* 웹킷 기반 브라우저에서 스크롤바의 너비 */
+}
+
+#itemBox::-webkit-scrollbar-thumb {
+  background-color: transparent; /* 웹킷 기반 브라우저에서 스크롤바의 색상 */
+}
+
+/*로고랑 로그아웃 버튼을 담는 박스*/
+.logo-logout-container {
+  display: flex; 
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/* 사이드바 사용자 로고 스타일 */
+.sidebar-user-logo {
+  width:90%;
+  height: 50px;
+  margin-bottom: -10px; /* 아래 여백 조절 */
+  margin-left: -10px; /* 왼쪽 여백 조절 */
+  border-radius: 50%;
+  display: flex;
+  align-items: center; /* 수직 가운데 정렬 */
+}
+
+#user-img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px; /* 이미지와 텍스트 사이 여백 설정 */
+}
+
+.sidebar-user-logo div {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+/* 사이드바 로그아웃 스타일 */
+.sidebar-logout {
+  margin-bottom: -10px; /* 아래 여백 조절 */
+  margin-right: -20px; /* 오른쪽 여백 조절 */
+  background-color: #7DEBEB;
+  border-radius: 40%;
+  border: none;
+}
+
+.logout {
+  color: hsl(177, 73%, 31%);
+  cursor: pointer; /* 커서 스타일 설정 */
+  border: 1px solid transparent; /* 테두리 설정 */
+  transition: color 0.3s, border 0.3s; /* 트랜지션 효과 추가 (선택사항) */
+}
+
+/* hover 시 스타일 변경 */
+.logout:hover {
+  color: #D2FFD2;
+  background-color: #65FFBA;
+  border: 1px solid transparent; /* 테두리 설정 */
+  border-radius: 40%;
+}
+
+/* 채팅 컨테이너 스타일 */
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 채팅 박스 스타일 */
+#chat-box {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: white;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
+}
+
+/* 입력 컨테이너 스타일 */
+.input-container {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  height: 60px;
+}
+
+input {
+  font-size: 23px;
+  font-family: "Gamja Flower";
+}
+
+input::placeholder {
+  font-weight: 600; /* 굵기 지정 가능 */
+  font-size: 22px; /* 크기 지정 가능 */
+  font-family: "Jua";
+}
+
+/* 입력 필드 스타일 */
+#message-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* 채팅 화면에 표시되는 스타일 */
+#chat-box {
+  color: black;
+}
+
+/* 전송 버튼 스타일 */
+#send-image {
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* chat-info 중앙 배치하기 */
+.centered-text {
+  text-align: center; /* 텍스트를 가운데로 정렬 */
+  margin-bottom: 20px;
+}
+
+/* 사용자 메시지 스타일 */
+.user-message {
+  background-color: white;
+  font-size: 25px;
+}
+
+/* 챗봇 메시지 스타일 */
+.chatbot-message {
+  background-color: #afffee;
+  font-size: 25px;
+}
+
+/*메시지 이미지 스타일*/
+#chatImage {
+  max-width: 70px; /* 이미지 최대 너비 설정 */
+  margin-right: 15px;
+}
+
+/*메시지 박스 스타일*/
+.message-box {
+  display: flex;
+  align-items: center; /* 수직 중앙 정렬을 위한 스타일 */
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Single Day";
+}
+
+  /* 챗봇 시작 메시지 스타일 */
+  .logo-box {
+    display: flex;
+    min-height: 80vh;
+    text-align: center; /* 텍스트를 가운데로 정렬 */
+    margin: 0;
+    align-items: center;
+    justify-content: center; /* 화면 상단으로부터의 여백 조절 */
+  }
+  .start-message {
+    display: block;
+  }
+  
+  .start-message h1 {
+    font-size: 32px; /* 글자 크기 조절 */
+    color: #333; /* 글자 색상 설정 */
+    font-family: "Dancing Script";
+  }
+
+  /*폴더 컨테이너*/
+  .folder-container {
+    display: flex;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border 0.3s;
+  }
+
+  .folder-container:hover {
+    background-color:#2ABCB4;
+  }
+
+  /*폴더 박스*/
+  .folder-box {
+    display: flex;
+    width: 80%;
+  }
+
+  /*폴더 아이콘*/
+  .folder-icon {
+    color:#D2FFD2;
+  }
+
+  /*이름 스타일*/
+  .name-box {
+    margin-top : 3px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #D2FFD2;
+    margin-left: 10px;
+  }
+
+  /*수정 버튼 박스*/
+  .edit-box {
+    margin-top: 5px;
+    color: aliceblue;
+    display: flex;
+  }
+
+/*이름 변경 input 스타일*/
+.room-input {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.room-input > input {
+  width: 90%;
+}
+
+/*수정 아이콘*/
+.edit-icons {
+    margin-left: 5px;
+    color: #ACFFEF;
+  }
+
+/*채팅방 컨테이너 스타일*/
+.room-container{
+  display: flex;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border 0.3s;
+}
+
+.room-container:hover {
+  background-color:#2ABCB4;
+  
+}
+
+/*채팅방 박스 스타일*/
+.room-box {
+  display: flex;
+  width: 80%;
+}
+
+/*채팅방 아이콘 스타일*/
+.room-icon {
+  color:#D2FFD2;
+}
