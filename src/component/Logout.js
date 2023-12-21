@@ -20,7 +20,6 @@ function deleteAllCookies() {
 
     // 함수 호출로 모든 쿠키 삭제
     deleteAllCookies();
-
     goHomePage()
   }
   const goHomePage = () => {
