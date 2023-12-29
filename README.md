@@ -28,19 +28,19 @@ NLP를 사용한 챗봇 만들기.
                                       
 # 작품 구성도
 1. 아키텍처
-![temp_1](https://github.com/LaiTial/Chat/assets/39575609/2d7c88b9-582a-4237-88ff-70b44a49fe01)
-                    
+![image](https://github.com/LaiTial/Chat/assets/39575609/31af78f4-edd0-4ca0-a3b5-29a570b673c7)
+                     
 # DB
-1. 채팅 내역 저장
-![image](https://github.com/LaiTial/Chat/assets/39575609/74258a0a-f05f-484d-85b2-a5b14061b9a6)
+#### 1. 채팅 내역 저장
+![temp_1](https://github.com/LaiTial/Chat/assets/39575609/2d7c88b9-582a-4237-88ff-70b44a49fe01)
                                      
-2. 유저 정보 저장
+#### 2. 유저 정보 저장
 ![temp_2](https://github.com/LaiTial/Chat/assets/39575609/a111e790-4c08-4fda-8d72-8d29d16bd2e5)
                                   
-3. 채팅방 정보 저장
+#### 3. 채팅방 정보 저장
 ![temp_3](https://github.com/LaiTial/Chat/assets/39575609/e29164ca-78fa-4514-8370-c02a2d348103)
                               
-4. 폴더 정보 저장
+#### 4. 폴더 정보 저장
 ![temp_4](https://github.com/LaiTial/Chat/assets/39575609/ae4c231d-d873-4359-bb8d-f4298411d2eb)
                    
 
