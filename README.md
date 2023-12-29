@@ -1,6 +1,7 @@
 # Chat
-#### 2023. 서경대학교 졸업 프로젝트
-#### 채팅 홈페이지
+#### 서경대학교 졸업 프로젝트
+# 프로젝트명
+NLP를 사용한 챗봇 만들기(PET Assistant Bot)
 ## 구현언어
 - React, html, css, javascript 사용
 
