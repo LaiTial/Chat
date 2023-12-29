@@ -1,24 +1,24 @@
 # PET Assistant Bot
 서경대학교 졸업 프로젝트
 
-# 프로젝트명
+## 프로젝트명
 PET Assistant Bot
 
-# 프로젝트 소개
+## 프로젝트 소개
 NLP를 사용한 챗봇 만들기.
 
-# 개발 기간
+## 개발 기간
 2023.10.23 ~ 2023.12.27
 
 ## 구현언어
 - React, html, css, javascript 사용
  
-# 개발 기능
+## 개발 기능
 - 소셜 로그인
 - 채팅방 기능
 - 폴더 기능
         
-# 요구 사항
+## 요구 사항
 - 카카오, 네이버를 사용한 소셜 로그인, 로그아웃
 - 로그인한 유저명 display
 - 챗 gpt처럼 채팅방 생성, 이름 변경, 삭제
@@ -29,7 +29,7 @@ NLP를 사용한 챗봇 만들기.
 - 폴더 열기, 닫기
 
                                       
-# 작품 구성도
+## 작품 구성도
 #### 1. 아키텍처
 ![image](https://github.com/LaiTial/Chat/assets/39575609/31af78f4-edd0-4ca0-a3b5-29a570b673c7)
 
@@ -39,7 +39,7 @@ NLP를 사용한 챗봇 만들기.
 #### 3. 시퀀스 다이어그램
 ![image](https://github.com/LaiTial/Chat/assets/39575609/9f99d684-9d58-45fd-94e7-1adbe7a88cc4)
 
-# DB
+## DB
 #### 1. 채팅 내역 저장
 ![temp_1](https://github.com/LaiTial/Chat/assets/39575609/2d7c88b9-582a-4237-88ff-70b44a49fe01)
                                      
