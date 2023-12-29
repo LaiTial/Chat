@@ -33,11 +33,14 @@ PET Assistant Bot
 #### 1. 아키텍처
 ![image](https://github.com/LaiTial/Chat/assets/39575609/31af78f4-edd0-4ca0-a3b5-29a570b673c7)
 
+
 #### 2. 유스케이스 다이어그램
 ![image](https://github.com/LaiTial/Chat/assets/39575609/4cb80c6d-0697-4bd1-8896-0c5cf69058cc)
 
+
 #### 3. 시퀀스 다이어그램
 ![image](https://github.com/LaiTial/Chat/assets/39575609/9f99d684-9d58-45fd-94e7-1adbe7a88cc4)
+
 
 ## DB
 #### 1. 채팅 내역 저장
