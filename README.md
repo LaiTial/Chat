@@ -3,11 +3,11 @@
         SW 인재교육 참여기업
         오브젠에서 제안 
         자연어 처리(NLP)를 사용한 챗봇 만들기.
-![temp_5](https://github.com/LaiTial/Chat/assets/39575609/2cebd860-a69d-4576-85c3-77186e012db0)
+![temp_4](https://github.com/LaiTial/Chat/assets/39575609/060cc7f1-21f1-4a38-b8a8-103519465dc4)
 
 ## 프로젝트명
 #### PET Assistant Bot
-![temp_5](https://github.com/LaiTial/Chat/assets/39575609/c0c7d585-b551-4b78-9020-dce71c126c7d)
+![temp_4](https://github.com/LaiTial/Chat/assets/39575609/ee5a25ef-329a-41c0-a6f8-e92039a09f41)
 
 ## 프로젝트 소개
 #### 반려동물을 키우는 사람들을 위한 도움을 주는 챗봇
@@ -21,22 +21,17 @@
 
 ## 개발 기간
 2023.10.23 ~ 2023.12.27
-
-![temp_5](https://github.com/LaiTial/Chat/assets/39575609/d1739ba7-7473-4d7e-a135-86a9145e3452)
-
+![temp_4](https://github.com/LaiTial/Chat/assets/39575609/569914a2-4999-4d71-a95e-cb8ee17e45a4)
 
 ## 구현언어
 - React, html, css, javascript 사용
+![temp_4](https://github.com/LaiTial/Chat/assets/39575609/46f3d7b3-262b-4fb3-a02b-7d591d0695b2)
 
-![temp_5](https://github.com/LaiTial/Chat/assets/39575609/86a21aa8-5be3-43dc-b469-afd5d5e43d68)
- 
-## 개발 기능
+ ## 개발 기능
 - 소셜 로그인
 - 채팅방 기능
 - 폴더 기능
-
-![temp_5](https://github.com/LaiTial/Chat/assets/39575609/04dab948-ecc9-4bc9-9a50-5b70dcc5efdc)
-
+![temp_4](https://github.com/LaiTial/Chat/assets/39575609/d21fa01a-0168-44b2-b2bf-b47ab5a08ae3)
 
 ## 요구 사항
 - 카카오, 네이버를 사용한 소셜 로그인, 로그아웃
@@ -45,27 +40,25 @@
 - 이전 채팅 내역 자동 저장
 - 채팅 전송 & 답변 받기
 - 폴더로 채팅방 관리하기
-- 폴더 생성, 이름 변경, 삭제
-- 폴더 열기, 닫기
 
-![temp_5](https://github.com/LaiTial/Chat/assets/39575609/6a837ffd-becb-42e8-a158-96ddc2fc1c03)
-
+![temp_4](https://github.com/LaiTial/Chat/assets/39575609/5c30fbe0-1a5d-4e2f-b54f-3bef148d16ef)
                                       
 ## 작품 구성도
 #### 1. 아키텍처
 <img src="https://github.com/LaiTial/Chat/assets/39575609/b0b1de86-4ae8-4a8b-9f92-87dacca1a5b1" alt="이미지 설명" width="700">
+<img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 #### 2. 사용 언어
 ![image](https://github.com/LaiTial/Chat/assets/39575609/31af78f4-edd0-4ca0-a3b5-29a570b673c7)
-
+<img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 #### 3. 유스케이스 다이어그램
 <img src="https://github.com/LaiTial/Chat/assets/39575609/4cb80c6d-0697-4bd1-8896-0c5cf69058cc" alt="이미지 설명" width="700">
-
+<img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 #### 4. 시퀀스 다이어그램
 <img src="https://github.com/LaiTial/Chat/assets/39575609/9f99d684-9d58-45fd-94e7-1adbe7a88cc4" alt="이미지 설명" width="600">
-
+<img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 ## DB
 #### 1. 채팅 내역 저장
@@ -85,13 +78,15 @@
 
 #### 1. 로그인
 <img src="https://github.com/LaiTial/Chat/assets/39575609/2472c55e-2212-447f-8855-0d91dc670e22" alt="이미지 설명" width="700">
+<img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 #### 2. 채팅 기능
 <img src="https://github.com/LaiTial/Chat/assets/39575609/23d66714-1401-49a0-b3d7-4f720c18b396" alt="이미지 설명" width="700">
+<img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 #### 3. 폴더 기능
 <img src="https://github.com/LaiTial/Chat/assets/39575609/0611e8ad-161d-40df-9057-2b296de57e91" alt="이미지 설명" width="700">
-
+<img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 
 
