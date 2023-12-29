@@ -1,5 +1,8 @@
-# PET Assistant Bot
-서경대학교 졸업 프로젝트
+# Pet Assistant Bot
+서경대학교 졸업 프로젝트.
+
+SW 인재교육 참여기업 오브젠에서 제안한 NLP를 사용한 챗봇 만들기.
+
 
 ## 프로젝트명
 PET Assistant Bot
