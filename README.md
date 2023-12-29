@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Chat-React-
+#### 2023. 서경대학교 졸업 프로젝트
+#### 채팅 홈페이지
+## 구현언어
+- React, html, css, javascript 사용
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 게임 구성
+- 2개의 게임을 구성
 
-## Available Scripts
+### 짝 맞추기 게임 규칙
+##### 나온 한국어 뜻에 맞는 영단어를 찾는 게임
 
-In the project directory, you can run:
+1. 한국어 뜻과 3개의 영어단어가 화면에 나타난다
+2. 뜻에 맞는 영어단어를 클릭해야 한다.
+3. 맞으면 O, 틀리면 X가 화면에 나타난다.
+4. 애니메이션 짧게 2-3초 재생 후 다음 단어로 넘어간다.
+5. 게임을 아예 종료하지 않은 이상 나갔다 와도 점수는 유지된다.
+6. 하나의 단어를 맞을시 1점 제공
 
-### `npm start`
+### 행맨 게임
+##### 나온 한국어 뜻에 맞는 영단어의 스펠링+행맨 게임을 결합한 게임
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. 교수대와 알파벳, 각 단어의 스펠링 개수에 맞는 _, 한국어 뜻이 화면에 나타난다.
+2. 알파벳 하나 틀릴시마다 교수대에 보라색으로 물든 사람이 그려진다.
+3. 머리, 몸통, 팔, 다리, 눈, 입 순으로 그려진다.
+4. 교수대에 다 그려질 시 X, 그 전에 단어를 맞출시 O가 화면에 나타난다.
+4. 애니메이션 짧게 2-3초 재생 후 다음 단어로 넘어간다.
+5. 게임을 아예 종료하지 않은 이상 나갔다 와도 점수는 유지된다.
+6. 하나의 단어를 맞을시 1점 제공
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 게임 별 구상
 
-### `npm test`
+### 공통 기능
+- 점수 기능
+- 배경 화면 음악, 각 게임 별로 다른 음악 재생
+- 음악 on/off 가능한 버튼
+- 메인 화면으로 돌아갈 수 있는 버튼
+- 답이 맞고/틀리고에 따른 O, X의 애니메이션
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 각 게임별 다른 기능
 
-### `npm run build`
+### 짝 맞추기 게임
+- 타이머 기능
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 행맨 게임
+- 알파벳 클릭시 행맨 그리기
