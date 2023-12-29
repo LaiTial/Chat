@@ -55,10 +55,6 @@
 <img src="https://github.com/LaiTial/Chat/assets/39575609/4cb80c6d-0697-4bd1-8896-0c5cf69058cc" alt="이미지 설명" width="700">
 <img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
-#### 4. 시퀀스 다이어그램
-<img src="https://github.com/LaiTial/Chat/assets/39575609/9f99d684-9d58-45fd-94e7-1adbe7a88cc4" alt="이미지 설명" width="600">
-<img src="https://github.com/LaiTial/Chat/assets/39575609/5c30fbe0-1a5d-4e2f-b54f-3bef148d16ef" alt="blank" width="700">
-
 ## DB
 #### 1. 채팅 내역 저장
 ![temp_1](https://github.com/LaiTial/Chat/assets/39575609/2d7c88b9-582a-4237-88ff-70b44a49fe01)
