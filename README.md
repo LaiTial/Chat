@@ -1,30 +1,22 @@
-# Chat
+# PET Assistant Bot
 #### 서경대학교 졸업 프로젝트
 
 # 프로젝트명
-PET Assistant Bot
-##                        
+#### PET Assistant Bot
+                        
 # 프로젝트 소개
 NLP를 사용한 챗봇 만들기.
-##
-
-
-                
+             
 # 개발 기간
 2023.10.23 ~ 2023.12.27
-
-
                        
 ## 구현언어
 - React, html, css, javascript 사용
-
-
                              
 # 개발 기능
 - 소셜 로그인
 - 채팅방 기능
 - 폴더 기능                       
-
                                    
 # 요구 사항
 - 카카오, 네이버를 사용한 소셜 로그인
