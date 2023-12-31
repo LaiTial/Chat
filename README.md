@@ -43,48 +43,54 @@
 ![temp_4](https://github.com/LaiTial/Chat/assets/39575609/5c30fbe0-1a5d-4e2f-b54f-3bef148d16ef)
                                       
 ## 작품 구성도
-#### 1. 아키텍처
+### 1. 아키텍처
 <img src="https://github.com/LaiTial/Chat/assets/39575609/b0b1de86-4ae8-4a8b-9f92-87dacca1a5b1" alt="이미지 설명" width="700">
 <img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
-#### 2. 사용 언어
+### 2. 사용 언어
 ![image](https://github.com/LaiTial/Chat/assets/39575609/31af78f4-edd0-4ca0-a3b5-29a570b673c7)
 <img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
-#### 3. 유스케이스 다이어그램
+### 3. 유스케이스 다이어그램
 <img src="https://github.com/LaiTial/Chat/assets/39575609/4cb80c6d-0697-4bd1-8896-0c5cf69058cc" alt="이미지 설명" width="700">
 <img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 ## DB
-#### 1. 채팅 내역 저장
+### 1. 채팅 내역 저장
 ![temp_1](https://github.com/LaiTial/Chat/assets/39575609/2d7c88b9-582a-4237-88ff-70b44a49fe01)
                                      
-#### 2. 유저 정보 저장
+### 2. 유저 정보 저장
 ![temp_2](https://github.com/LaiTial/Chat/assets/39575609/a111e790-4c08-4fda-8d72-8d29d16bd2e5)
                                   
-#### 3. 채팅방 정보 저장
+### 3. 채팅방 정보 저장
 ![temp_3](https://github.com/LaiTial/Chat/assets/39575609/e29164ca-78fa-4514-8370-c02a2d348103)
                               
-#### 4. 폴더 정보 저장
+### 4. 폴더 정보 저장
 ![temp_4](https://github.com/LaiTial/Chat/assets/39575609/ae4c231d-d873-4359-bb8d-f4298411d2eb)
 ![temp_5](https://github.com/LaiTial/Chat/assets/39575609/8933a1c5-c20a-4bb6-9864-3ee5f152bd91)
 
 ## 기능
 
-#### 1. 로그인
+### 1. 로그인
 <img src="https://github.com/LaiTial/Chat/assets/39575609/2472c55e-2212-447f-8855-0d91dc670e22" alt="이미지 설명" width="700">
 <img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
-#### 2. 채팅 기능
+### 2. 채팅 기능
 <img src="https://github.com/LaiTial/Chat/assets/39575609/23d66714-1401-49a0-b3d7-4f720c18b396" alt="이미지 설명" width="700">
 <img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
-#### 3. 폴더 기능
+### 3. 폴더 기능
 <img src="https://github.com/LaiTial/Chat/assets/39575609/0611e8ad-161d-40df-9057-2b296de57e91" alt="이미지 설명" width="700">
 <img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
 
 # UI
 
+### 1. 로그인 화면
+<img src="https://github.com/LaiTial/Chat/assets/39575609/7258bcae-07ae-424f-bdb0-483b1e54b2fb" alt="blank" width="800">
+<img src="https://github.com/LaiTial/Chat/assets/39575609/e92ac0ca-1c2a-4d2c-bdc7-7285c7ab9ebd" alt="blank" width="700">
+
+### 2. 채팅창 화면
+<img src="https://github.com/LaiTial/Chat/assets/39575609/24089c2f-474d-467a-be77-e19e23524954" alt="blank" width="800">
 
 
 
